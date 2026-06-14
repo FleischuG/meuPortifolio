@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Guilherme Pinto Huhnfleisch - Desenvolvedor Web">
+    <title>Guilherme Pinto Huhnfleisch | Portfólio</title>
+    <!-- Fonte Google Fonts (tipografia, não é framework CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!-- Sprite de ícones SVG (sem biblioteca externa) -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+        <symbol id="icon-graduacao" viewBox="0 0 24 24">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/>
+        </symbol>
+        <symbol id="icon-livro" viewBox="0 0 24 24">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </symbol>
+        <symbol id="icon-globo" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </symbol>
+        <symbol id="icon-laptop" viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="2" y1="20" x2="22" y2="20"/>
+        </symbol>
+        <symbol id="icon-layout" viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="9" y1="21" x2="9" y2="9"/>
+        </symbol>
+        <symbol id="icon-calculadora" viewBox="0 0 24 24">
+            <rect x="4" y="2" width="16" height="20" rx="2"/>
+            <line x1="8" y1="6" x2="16" y2="6"/>
+            <line x1="8" y1="10" x2="8" y2="10.01"/><line x1="12" y1="10" x2="12" y2="10.01"/><line x1="16" y1="10" x2="16" y2="10.01"/>
+            <line x1="8" y1="14" x2="8" y2="14.01"/><line x1="12" y1="14" x2="12" y2="14.01"/><line x1="16" y1="14" x2="16" y2="14.01"/>
+            <line x1="8" y1="18" x2="8" y2="18.01"/><line x1="12" y1="18" x2="12" y2="18.01"/><line x1="16" y1="18" x2="16" y2="18.01"/>
+        </symbol>
+        <symbol id="icon-lista" viewBox="0 0 24 24">
+            <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
+            <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+        </symbol>
+        <symbol id="icon-email" viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+        </symbol>
+        <symbol id="icon-telefone" viewBox="0 0 24 24">
+            <rect x="5" y="2" width="14" height="20" rx="2"/>
+            <line x1="12" y1="18" x2="12.01" y2="18"/>
+        </symbol>
+        <symbol id="icon-local" viewBox="0 0 24 24">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 24 24">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+        </symbol>
+        <symbol id="icon-check" viewBox="0 0 24 24">
+            <polyline points="20 6 9 17 4 12"/>
+        </symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </symbol>
+    </svg>
+
+    <!-- Cabeçalho com menu de navegação fixo -->
+    <header class="cabecalho" id="topo">
+        <div class="container cabecalho-conteudo">
+            <a href="#topo" class="logo">GP<span>H</span></a>
+
+            <!-- Botão do menu mobile (hambúrguer) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu principal de navegação por âncoras -->
+            <nav class="menu" id="menuNav">
+                <ul>
+                    <li><a href="#sobre" class="menu-link">Sobre mim</a></li>
+                    <li><a href="#formacao" class="menu-link">Formação</a></li>
+                    <li><a href="#portfolio" class="menu-link">Portfólio</a></li>
+                    <li><a href="#contato" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Seção Hero / Apresentação inicial -->
+        <section class="hero" id="inicio">
+            <!-- Luz vermelha lateral — referência à iluminação da foto -->
+            <div class="hero-luz hero-luz-direita" aria-hidden="true"></div>
+            <div class="hero-luz hero-luz-esquerda" aria-hidden="true"></div>
+            <div class="hero-grain" aria-hidden="true"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-texto">
+                    <p class="hero-saudacao">Olá, eu sou</p>
+                    <h1>Guilherme <span class="destaque-nome">Pinto Huhnfleisch</span></h1>
+                    <p class="hero-cargo">Engenheiro de Software em formação</p>
+                    <p class="hero-descricao">Formado em Análise e Desenvolvimento de Sistemas pela UNINTER, atualmente cursando Engenharia de Software. Apaixonado por tecnologia, lógica e criação de experiências na web.</p>
+                    <div class="hero-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Git &amp; GitHub</span>
+                    </div>
+                    <div class="hero-botoes">
+                        <a href="#portfolio" class="btn btn-primario">Ver projetos</a>
+                        <a href="#contato" class="btn btn-outline">Entre em contato</a>
+                    </div>
+                </div>
+
+                <div class="hero-foto">
+                    <div class="foto-moldura">
+                        <div class="foto-aura" aria-hidden="true"></div>
+                        <div class="foto-rim" aria-hidden="true"></div>
+                        <img src="img/foto-perfil.png" alt="Guilherme Pinto Huhnfleisch" class="foto-hero">
+                    </div>
+                </div>
+            </div>
+
+            <a href="#sobre" class="scroll-indicador" aria-label="Rolar para a seção Sobre mim">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section class="secao animar-entrada" id="sobre">
+            <div class="container">
+                <p class="secao-label">01 — Apresentação</p>
+                <h2 class="titulo-secao">Sobre mim</h2>
+                <div class="sobre-conteudo">
+                        <p>
+                            Meu nome é <strong>Guilherme Pinto Huhnfleisch</strong>, tenho 21 anos e moro no Rio Grande do Sul, Brasil.
+                            Concluí a graduação em Análise e Desenvolvimento de Sistemas pela UNINTER e, atualmente, estou cursando
+                            Engenharia de Software na mesma universidade, seguindo minha trajetória na área de tecnologia com foco em desenvolvimento web.
+                        </p>
+                        <p>
+                            Gosto de aprender coisas novas, resolver problemas com lógica e criar soluções que façam diferença no dia a dia
+                            das pessoas. Acredito que a tecnologia é uma ferramenta poderosa para transformar ideias em realidade.
+                        </p>
+                        <h3>Hobbies e interesses</h3>
+                        <div class="hobbies-tags">
+                            <span class="hobby-pill">Programação</span>
+                            <span class="hobby-pill">Desenvolvimento Web</span>
+                            <span class="hobby-pill">Jogos &amp; E-sports</span>
+                            <span class="hobby-pill">Música</span>
+                            <span class="hobby-pill">Tecnologia</span>
+                            <span class="hobby-pill">Esportes</span>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação -->
+        <section class="secao secao-alternada animar-entrada" id="formacao">
+            <div class="container">
+                <p class="secao-label">02 — Trajetória</p>
+                <h2 class="titulo-secao">Formação</h2>
+
+                <div class="cards-grid">
+                    <!-- Card de formação acadêmica -->
+                    <article class="card">
+                        <div class="card-icone">
+                            <svg class="icone" aria-hidden="true"><use href="#icon-graduacao"></use></svg>
+                        </div>
+                        <h3>Formação Acadêmica</h3>
+                        <ul>
+                            <li>
+                                <strong>Engenharia de Software</strong><br>
+                                UNINTER — Em andamento (desde 2026)
+                            </li>
+                            <li>
+                                <strong>Análise e Desenvolvimento de Sistemas</strong><br>
+                                UNINTER — Concluído em 2026
+                            </li>
+                            <li>
+                                <strong>Ensino Médio Completo</strong><br>
+                                Escola Estadual — Concluído em 2021
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Card de cursos -->
+                    <article class="card">
+                        <div class="card-icone">
+                            <svg class="icone" aria-hidden="true"><use href="#icon-livro"></use></svg>
+                        </div>
+                        <h3>Cursos e Certificações</h3>
+                        <ul>
+                            <li>Fundamentos da Programação Web — UNINTER</li>
+                            <li>HTML5 e CSS3 — Curso em Vídeo</li>
+                            <li>JavaScript Básico — Curso em Vídeo</li>
+                            <li>Lógica de Programação — Alura</li>
+                        </ul>
+                    </article>
+
+                    <!-- Card de idiomas -->
+                    <article class="card">
+                        <div class="card-icone">
+                            <svg class="icone" aria-hidden="true"><use href="#icon-globo"></use></svg>
+                        </div>
+                        <h3>Idiomas</h3>
+                        <ul class="lista-idiomas">
+                            <li>
+                                <div class="idioma-topo">
+                                    <strong>Português</strong>
+                                    <span>Nativo</span>
+                                </div>
+                                <div class="barra-progresso"><span style="width: 100%"></span></div>
+                            </li>
+                            <li>
+                                <div class="idioma-topo">
+                                    <strong>Inglês</strong>
+                                    <span>Intermediário</span>
+                                </div>
+                                <div class="barra-progresso"><span style="width: 65%"></span></div>
+                            </li>
+                            <li>
+                                <div class="idioma-topo">
+                                    <strong>Espanhol</strong>
+                                    <span>Básico</span>
+                                </div>
+                                <div class="barra-progresso"><span style="width: 35%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section class="secao animar-entrada" id="portfolio">
+            <div class="container">
+                <p class="secao-label">03 — Projetos</p>
+                <h2 class="titulo-secao">Portfólio</h2>
+                <p class="subtitulo-secao">Confira alguns dos meus projetos e trabalhos realizados.</p>
+
+                <div class="portfolio-grid">
+                    <article class="projeto-card">
+                        <div class="projeto-imagem projeto-cor-1">
+                            <svg class="icone icone-grande" aria-hidden="true"><use href="#icon-laptop"></use></svg>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Portfólio Pessoal</h3>
+                            <p>Site pessoal desenvolvido com HTML5, CSS3 e JavaScript puro, como atividade prática da disciplina Fundamentos da Programação Web.</p>
+                            <a href="https://github.com/FleischuG/meuPortifolio" target="_blank" rel="noopener noreferrer" class="btn btn-secundario">Ver no GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto-card">
+                        <div class="projeto-imagem projeto-cor-2">
+                            <svg class="icone icone-grande" aria-hidden="true"><use href="#icon-layout"></use></svg>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Landing Page Responsiva</h3>
+                            <p>Página de apresentação de produto com layout responsivo, formulário de contato e animações em CSS.</p>
+                            <a href="https://github.com/FleischuG" target="_blank" rel="noopener noreferrer" class="btn btn-secundario">Ver no GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto-card">
+                        <div class="projeto-imagem projeto-cor-3">
+                            <svg class="icone icone-grande" aria-hidden="true"><use href="#icon-calculadora"></use></svg>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Calculadora Web</h3>
+                            <p>Calculadora funcional criada com HTML, CSS e JavaScript, com operações básicas e interface intuitiva.</p>
+                            <a href="https://github.com/FleischuG" target="_blank" rel="noopener noreferrer" class="btn btn-secundario">Ver no GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto-card">
+                        <div class="projeto-imagem projeto-cor-4">
+                            <svg class="icone icone-grande" aria-hidden="true"><use href="#icon-lista"></use></svg>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>To-Do List</h3>
+                            <p>Aplicativo de lista de tarefas com adição, remoção e marcação de conclusão, utilizando JavaScript e localStorage.</p>
+                            <a href="https://github.com/FleischuG" target="_blank" rel="noopener noreferrer" class="btn btn-secundario">Ver no GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section class="secao secao-alternada animar-entrada" id="contato">
+            <div class="container">
+                <p class="secao-label">04 — Fale comigo</p>
+                <h2 class="titulo-secao">Contato</h2>
+                <p class="subtitulo-secao">Preencha o formulário abaixo e entrarei em contato o mais breve possível.</p>
+
+                <div class="contato-wrapper">
+                    <form class="formulario" id="formContato" novalidate>
+                        <!-- Campo Nome -->
+                        <div class="campo-grupo">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                            <span class="erro-msg" id="erroNome"></span>
+                        </div>
+
+                        <!-- Campo E-mail -->
+                        <div class="campo-grupo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                            <span class="erro-msg" id="erroEmail"></span>
+                        </div>
+
+                        <!-- Campo Mensagem -->
+                        <div class="campo-grupo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            <span class="erro-msg" id="erroMensagem"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primario btn-enviar">Enviar mensagem</button>
+                    </form>
+
+                    <!-- Informações de contato adicionais -->
+                    <aside class="contato-info">
+                        <h3>Outras formas de contato</h3>
+                        <ul>
+                            <li>
+                                <span class="info-icone">
+                                    <svg class="icone" aria-hidden="true"><use href="#icon-email"></use></svg>
+                                </span>
+                                <div>
+                                    <strong>E-mail</strong>
+                                    <p>guilherme.huhnfleisch@email.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icone info-icone-whatsapp">
+                                    <svg class="icone icone-preenchido" aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                                </span>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <p>Prefere conversar por mensagem? Clique no botão abaixo.</p>
+                                    <!-- Link direto para WhatsApp (número não exibido na página) -->
+                                    <a href="https://wa.me/555198171197" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                        <svg class="icone icone-preenchido" aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                                        Chamar no WhatsApp
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icone">
+                                    <svg class="icone" aria-hidden="true"><use href="#icon-local"></use></svg>
+                                </span>
+                                <div>
+                                    <strong>Localização</strong>
+                                    <p>Rio Grande do Sul, Brasil</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icone">
+                                    <svg class="icone" aria-hidden="true"><use href="#icon-github"></use></svg>
+                                </span>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <p><a href="https://github.com/FleischuG" target="_blank" rel="noopener noreferrer">github.com/FleischuG</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <div class="rodape-marca">
+                <span class="logo">GP<span>H</span></span>
+                <p>Construindo soluções web com dedicação e criatividade.</p>
+            </div>
+            <nav class="rodape-links" aria-label="Links rápidos">
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <p class="rodape-copy">&copy; 2026 Guilherme Pinto Huhnfleisch. Todos os direitos reservados.</p>
+            <p class="rodape-disciplina">Fundamentos da Programação Web — UNINTER</p>
+        </div>
+    </footer>
+
+    <!-- Modal de confirmação de envio do formulário -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitulo" hidden>
+        <div class="modal">
+            <div class="modal-icone">
+                <svg class="icone icone-check" aria-hidden="true"><use href="#icon-check"></use></svg>
+            </div>
+            <h3 id="modalTitulo">Mensagem enviada com sucesso!</h3>
+            <p>Obrigado pelo contato. Responderei em breve.</p>
+            <button class="btn btn-primario" id="btnFecharModal">Fechar</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
