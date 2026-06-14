@@ -60,16 +60,6 @@ Atividade prática · **Fundamentos da Programação Web** · UNINTER
    ┗ 🖼️ foto-perfil.png
 ```
 
-## 🚀 Como usar
-
-```bash
-git clone https://github.com/FleischuG/meuPortifolio.git
-```
-
-Abra o `index.html` no navegador.
-
-Para publicar: **GitHub → Settings → Pages → branch `main`**
-
 ---
 
 <p align="center">
